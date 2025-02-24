@@ -1,0 +1,9 @@
+.separator |
+
+.import User.dat User
+.import Category.dat Category
+.import Item.dat Item
+.import Item_Category.dat Item_Category
+.import Bid.dat Bid
+
+UPDATE Item SET Buy_Price = NULL WHERE Buy_Price = '';
